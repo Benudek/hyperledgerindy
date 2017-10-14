@@ -1,5 +1,6 @@
 # hyperledgerindy
-hyperledger indy distrubuted identity management
+
+hyperledger indy distributed identity management
 
 Hackathon Dublin: Decentralised Identity
                            Sharing of health records
@@ -38,7 +39,7 @@ Claims are
          a data structure to handle revocations, e.g. a revoked driver license for drunk driving
 
 
-The Solution is implemented on top of Hyperlederg indy and Sovereign.
+The Solution is implemented on top of Hyperlederg Indy and Sovereign.
 Among other features this decentralised Identity Management will allow persons
       Define their Identity in different Relations from them to Issuer(s)
       Hence, separate parts of their identities such that no central entity knows all of them
@@ -46,6 +47,8 @@ Among other features this decentralised Identity Management will allow persons
          even if the cryptographty was broken only parts of the Identity not tied to a person are visible
       Generate claims over them, which are verified by Issuers, even though Issuers might not be reachable,
          this is possible by storing the Keys on the Ledger, which is always accessible
+         
+The solution is based on the concepts of Decentralised Identifiers (DIDs): https://w3c-ccg.github.io/did-spec/         
 
 The Solution Scenario Implemented could be transferred to a person, which has to conduct a lot of doctors visits, like e.g.
 a pregnant woman and wants a way to share her healthdata in a very efficient and secure manner
